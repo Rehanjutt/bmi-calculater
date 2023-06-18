@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    color: white;
+    background-color: #3e768a;
+}
+.container{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform:translate(-50% -50%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgb( 38 ,57, 77 ) 0px 20px 30px -10px;
+    background:grey;
+
+}
+input{
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+    size: 20px;
+}
+label{
+    font-size: 30px;
+}
